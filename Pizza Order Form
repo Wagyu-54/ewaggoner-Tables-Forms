@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<label for="marinara">Marinara</label>
+<br>
 
+
+<input type="radio" id="ranch" name="sauce" value="ranch">
+<label for="ranch">Ranch</label>
+<br>
+
+
+<input type="radio" id="nosauce" name="sauce" value="none">
+<label for="nosauce">No Sauce</label>
+</fieldset>
+
+
+<fieldset>
+<legend>Select Toppings</legend>
+
+
+<input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+<label for="pepperoni">Pepperoni</label>
+
+
+<input type="checkbox" id="sausage" name="toppings" value="sausage">
+<label for="sausage">Sausage</label>
+<br>
+
+
+<input type="checkbox" id="mushroom" name="toppings" value="mushroom">
+<label for="mushroom">Mushroom</label>
+
+
+<input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+<label for="pineapple">Pineapple</label>
+<br>
+
+
+<input type="checkbox" id="peppers" name="toppings" value="peppers">
+<label for="peppers">Peppers</label>
+
+
+<input type="checkbox" id="onions" name="toppings" value="onions">
+<label for="onions">Onions</label>
+</fieldset>
+
+
+<fieldset>
+<legend>Additional Instructions</legend>
+
+
+<textarea name="instructions" rows="4" cols="30">Add instructions</textarea>
+</fieldset>
+
+
+<input type="submit" value="Submit">
+
+
+</form>
+
+
+<hr>
+
+
+<section>
+<h2>List of My Favorite Games</h2>
+
+
+<table border="1">
+<caption>Favorite Video Games</caption>
+
+
+<thead>
+<tr>
+<th>Developer</th>
+<th colspan="2">Game Info</th>
+</tr>
+<tr>
+<th></th>
+<th>Title</th>
+<th>Year</th>
+</tr>
+</thead>
+
+
+<tbody>
+<tr>
+<td rowspan="3">Bungie</td>
+<td>Halo</td>
+<td>2001</td>
+</tr>
+<tr>
+<td>Halo 2</td>
+<td>2004</td>
+</tr>
+<tr>
+<td>Halo 3</td>
+<td>2007</td>
+</tr>
+<tr>
+<td>Mojang</td>
+<td>Minecraft</td>
+<td>2011</td>
+</tr>
+</tbody>
+
+
+<tfoot>
+<tr>
+<td colspan="3">Count: 4</td>
+</tr>
+</tfoot>
+
+
+</table>
+</section>
+
+
+</body>
+</html>
